@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+	double a,b,c,q,w,e;
+	cin>>a>>b>>c;
+
+q=(a - c);
+w= (b - c);
+e= (q + w);
+cout <<" q="<<q<<" w="<<w<<" e= "<<e<< ends;
+
+
+
+}
