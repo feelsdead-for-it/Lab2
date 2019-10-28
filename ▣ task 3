@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string> 
+#include <cmath>
+using namespace std;
+int main()
+{
+	double a,b,c,q;
+	cin>>a>>b>>c;
+	if (c > a && c > b) {
+	q= (c - a) * (b - c);
+	cout <<" q="<<q;
+	}
+	else
+    {
+     cout <<"Incorrect";
+	}
+}
